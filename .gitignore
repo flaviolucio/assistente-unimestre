@@ -1,0 +1,45 @@
+# Ambiente e segredos
+.env
+
+# Logs
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache
+storage/cache/*
+!storage/cache/.gitkeep
+
+# Banco - dumps e backups
+*.sql
+*.zip
+*.gz
+backup/
+*.bak
+
+# Scans e arquivos temporários
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Composer (caso seja adotado futuramente)
+/vendor/
+composer.lock
+
+# Node (não usado em produção; apenas precaução)
+/node_modules/
+# Importação oficial: páginas copiadas e estado dos lotes (não versionar)
+storage/imports/
+
+.env.*
+!.env.example
+teste-banco-*.php
+RELATORIO*.md
+
+.env.*
+!.env.example
+teste-banco-*.php
+RELATORIO*.md
