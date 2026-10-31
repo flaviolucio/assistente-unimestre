@@ -43,3 +43,5 @@ RELATORIO*.md
 !.env.example
 teste-banco-*.php
 RELATORIO*.md
+
+!database/schema.sql
